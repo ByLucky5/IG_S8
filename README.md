@@ -1,8 +1,24 @@
 # Visualización Delincuencia Washington DC
 
+## Indice
+
+1. [Descripción](#1-descripción)
+2. [Objetivos](#2-objetivos)
+3. [Funcionalidades](#3-funcionalidades)
+4. [Datos y procesamiento](#4-datos-y-procesamiento)
+
+   * [4.1 Origen de los datos](#41-origen-de-los-datos)
+   * [4.2 Limpieza y consolidación de CSV](#42-limpieza-y-consolidación-de-csv)
+   * [4.3 Estructura de datos usada](#43-estructura-de-datos-usada-en-la-visualización)
+5. [Video de demostración](#5-video-de-demostración)
+6. [Bibliografía / Fuentes](#6-bibliografía--fuentes)
+
+---
+
 ## 1. Descripción
 
 Este proyecto es una **visualización interactiva** y **dinámica en 2D** de la criminalidad en Washington DC entre **2015 y 2025**. Utiliza datos oficiales de incidentes delictivos día a día y los representa sobre un mapa dividido por “Neighborhood Clusters” (regiones), permitiendo analizar tendencias, comparar años, filtrar por tipo de delito y ver un ranking de las zonas más afectadas.
+<p align="center"> <img src="/images/Vista_general.png" width="800"/> </p>
 
 ---
 
@@ -17,16 +33,59 @@ Este proyecto es una **visualización interactiva** y **dinámica en 2D** de la 
 
 ## 3. Funcionalidades
 
-1. **Mapa 3D** con polígonos de distritos (“clusters”)
-2. **Animación día a día** con reproducción, pausa o salto directo al final (“Pasar rápido”)
-3. **Leyenda de intensidad**, adaptativa según periodo y filtro
-4. **Selección de año / rango temporal**
-   * Rango completo (2015-2025)
-   * Subrango (2015-2020, 2020-2025)
+1. **Mapa 2D** con polígonos de distritos (“clusters”)
+
+   <p align="center">
+     <img src="Mapa.png" width="400"/>
+   </p>
+
+2. **Animación día a día** con reproducción, pausa, reinicio y salto directo al final (“Pasar rápido”)
+
+   <p align="center">
+     <img src="Control.png" width="350"/>
+   </p>
+
+3. **Leyenda de intensidad dinámica**
+   *Valores máximos adaptables según año, rango o filtro por tipo de delito.*
+
+   <p align="center">
+     <img src="Leyenda_intensidad.png" width="200"/>
+   </p>
+
+4. **Selección de año o rango temporal**
+
+   * 2015–2025 (modo acumulativo)
+   * 2015–2020
+   * 2020–2025
    * Años individuales
-5. **Filtro por tipo de delito** (robos, homicidios, incendios, agresiones, etc.)
-6. **Ranking de Top 10 regiones** según casos acumulados
-7. **Tooltip** con nombre de la región y número de incidentes al hacer clic
+
+   <p align="center">
+     <img src="Año_rango.png" width="350"/>
+   </p>
+
+5. **Filtro por tipo de delito**
+
+   <p align="center">
+     <img src="Tipo_delito.png" width="450"/>
+   </p>
+
+6. **Ranking de Top 10 regiones con más incidentes**
+
+   <p align="center">
+     <img src="Ranking.png" width="350"/>
+   </p>
+
+7. **Tooltip al hacer clic en una región**
+
+   <p align="center">
+     <img src="Info.png" width="350"/>
+   </p>
+
+8. **Controles de personalización y velocidad**
+
+   <p align="center">
+     <img src="Personalizacion.png" width="350"/>
+   </p>
 
 ---
 
@@ -61,7 +120,18 @@ Para optimizar el rendimiento (especialmente en entornos como CodeSandbox), se r
 
 ---
 
-## 5. Bibliografía / fuentes
+## 5. Video de demostración
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=X" target="_blank">
+    <img src="https://img.youtube.com/vi/X/0.jpg" alt="Ver demo del Sistema Solar" width="480">
+  </a>
+</p>
+
+
+---
+
+## 6. Bibliografía / fuentes
 
 * **Catalog.data.gov – Crime Incidents**:
 
@@ -72,5 +142,3 @@ Para optimizar el rendimiento (especialmente en entornos como CodeSandbox), se r
 * **OpenData DC**: Neighborhood Clusters – GeoJSON oficial
 * **Three.js** — biblioteca para renderizado 3D (threejs.org)
 * **PapaParse** — librería para parsear CSV en el navegador (papaparse.com)
-
----

@@ -54,11 +54,6 @@ Este proyecto es una **visualización interactiva** y **dinámica en 2D** de la 
 
 4. **Selección de año o rango temporal**
 
-   * 2015–2025 (modo acumulativo)
-   * 2015–2020
-   * 2020–2025
-   * Años individuales
-
    <p align="center">
      <img src="/images/año_rango.png" width="350"/>
    </p>

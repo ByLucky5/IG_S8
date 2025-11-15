@@ -118,8 +118,8 @@ Para optimizar el rendimiento (especialmente en entornos como CodeSandbox), se r
 ## 5. Video de demostración
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=X" target="_blank">
-    <img src="https://img.youtube.com/vi/X/0.jpg" alt="Ver demo del Sistema Solar" width="480">
+  <a href="https://www.youtube.com/watch?v=tCSgXzQX4QA" target="_blank">
+    <img src="https://img.youtube.com/vi/tCSgXzQX4QA/0.jpg" alt="Ver demo del Visor" width="480">
   </a>
 </p>
 

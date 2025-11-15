@@ -20,6 +20,8 @@
 Este proyecto es una **visualización interactiva** y **dinámica en 2D** de la criminalidad en Washington DC entre **2015 y 2025**. Utiliza datos oficiales de incidentes delictivos día a día y los representa sobre un mapa dividido por “Neighborhood Clusters” (regiones), permitiendo analizar tendencias, comparar años, filtrar por tipo de delito y ver un ranking de las zonas más afectadas.
 <p align="center"> <img src="/images/Vista_general.png" width="800"/> </p>
 
+visualización: (https://3zz8zv.csb.app/)
+
 ---
 
 ## 2. Objetivos

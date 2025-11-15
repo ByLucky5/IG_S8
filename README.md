@@ -36,20 +36,20 @@ Este proyecto es una **visualización interactiva** y **dinámica en 2D** de la 
 1. **Mapa 2D** con polígonos de distritos (“clusters”)
 
    <p align="center">
-     <img src="Mapa.png" width="400"/>
+     <img src="/images/Mapa.png" width="400"/>
    </p>
 
 2. **Animación día a día** con reproducción, pausa, reinicio y salto directo al final (“Pasar rápido”)
 
    <p align="center">
-     <img src="Control.png" width="350"/>
+     <img src="/images/Control.png" width="350"/>
    </p>
 
 3. **Leyenda de intensidad dinámica**
    *Valores máximos adaptables según año, rango o filtro por tipo de delito.*
 
    <p align="center">
-     <img src="Leyenda_intensidad.png" width="200"/>
+     <img src="/images/Leyenda_intensidad.png" width="200"/>
    </p>
 
 4. **Selección de año o rango temporal**
@@ -60,31 +60,31 @@ Este proyecto es una **visualización interactiva** y **dinámica en 2D** de la 
    * Años individuales
 
    <p align="center">
-     <img src="Año_rango.png" width="350"/>
+     <img src="/images/Año_rango.png" width="350"/>
    </p>
 
 5. **Filtro por tipo de delito**
 
    <p align="center">
-     <img src="Tipo_delito.png" width="450"/>
+     <img src="/images/Tipo_delito.png" width="450"/>
    </p>
 
 6. **Ranking de Top 10 regiones con más incidentes**
 
    <p align="center">
-     <img src="Ranking.png" width="350"/>
+     <img src="/images/Ranking.png" width="350"/>
    </p>
 
 7. **Tooltip al hacer clic en una región**
 
    <p align="center">
-     <img src="Info.png" width="350"/>
+     <img src="/images/Info.png" width="350"/>
    </p>
 
 8. **Controles de personalización y velocidad**
 
    <p align="center">
-     <img src="Personalizacion.png" width="350"/>
+     <img src="/images/Personalizacion.png" width="350"/>
    </p>
 
 ---

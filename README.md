@@ -60,7 +60,7 @@ Este proyecto es una **visualización interactiva** y **dinámica en 2D** de la 
    * Años individuales
 
    <p align="center">
-     <img src="/images/Año_rango.png" width="350"/>
+     <img src="/images/año_rango.png" width="350"/>
    </p>
 
 5. **Filtro por tipo de delito**
